@@ -1,0 +1,24 @@
+.imgcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-desp {
+    text-align: center;
+}
+
+.img-desp img {
+    width: 9.7rem;
+}
+
+.img-desp p {
+    font-size: 42px;
+    font-family: 'Bebas Neue';
+    height: 39px;
+}
+
+.img-desp h1 {
+    color: #a08f8f;
+    font-family: 'Oswald', sans-serif;
+
+}

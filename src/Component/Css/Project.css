@@ -1,0 +1,82 @@
+.heading-projects {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.heading-projects span {
+    color: #580b58;
+}
+
+.container-pro {
+    background-color: #eed1ee;
+    padding: 0px 0px 2rem 0px;
+}
+
+.sub-pro {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects {
+    border: 2px solid;
+    width: 16rem;
+    margin: 5px 5px 5px 5px;
+    border-radius: 4px;
+}
+
+.projects h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.projects p {
+    font-family: 'Bebas Neue', cursive;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.projects img {
+    width: 15.8rem;
+    height: 10rem;
+}
+
+.work-program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-program p {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #5d0c5d;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: 2px solid black;
+    width: 60px;
+    height: 25px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    background-color: #5c0c5c;
+    color: white;
+    font-weight: bold;
+}

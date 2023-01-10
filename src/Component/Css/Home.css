@@ -1,0 +1,35 @@
+.main-home-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+    margin-bottom: 2rem;
+}
+
+.overview-desp h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    margin-bottom: 7px;
+}
+
+.overview-desp p {
+    color: #779177;
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+}
+
+.overview-desp button {
+    margin-top: 13px;
+    width: 69px;
+    height: 30px;
+    border: 2px solid #a08c8c;
+    border-radius: 4px;
+    margin-right: 6px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+
+}
+
+.myname {
+    color: purple;
+}
