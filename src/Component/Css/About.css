@@ -7,10 +7,11 @@
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
     letter-spacing: 2px;
+    color: white;
 }
 
 .color-m {
-    color: #5d0c5d;
+    color: #f5b82a;
 }
 
 .about-me {
@@ -27,6 +28,7 @@
 .left-sec p {
     letter-spacing: 0.5px;
     font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 .right-sec {
@@ -61,9 +63,9 @@
 }
 
 .light-br {
-    color: rgb(126 113 113);
+    color: rgb(232 255 190 / 53%);
 }
 
 .color-pu {
-    color: #580b58;
+    color: #f5b82a;
 }

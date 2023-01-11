@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0px;
     box-sizing: border-box;
+    background-color: #0e1924;
 }
 
 
 .navbar-main {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid rgb(187, 160, 160);
-    background: #eed1ee;
+    padding-bottom: 2px;
+    background: #0e1924;
 }
 
 .upper-nav-area {
@@ -24,7 +25,7 @@
     position: relative;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
-    color: #5d0c5d;
+    color: #f5b82a;
     top: 2px;
     left: 15px;
 }
@@ -46,6 +47,7 @@
     font-family: 'Oswald', sans-serif;
     position: relative;
     right: 15px;
+    color: white;
 }
 
 .light-dark-area svg {
@@ -59,6 +61,11 @@
     margin: 10px 0px;
 }
 
+.nav-links {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
 .nav-links ul {
     display: flex;
     list-style: none;
@@ -67,4 +74,5 @@
 
 .nav-links ul li {
     font-family: 'Bebas Neue', cursive;
+    color: white;
 }

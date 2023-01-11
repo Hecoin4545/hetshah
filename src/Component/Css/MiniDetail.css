@@ -1,6 +1,7 @@
 .imgcontainer {
     display: flex;
     justify-content: space-evenly;
+    background-color: #0e1924;
 }
 
 .img-desp {
@@ -15,10 +16,10 @@
     font-size: 42px;
     font-family: 'Bebas Neue';
     height: 39px;
+    color: white;
 }
 
 .img-desp h1 {
-    color: #a08f8f;
+    color: #f5b82a;
     font-family: 'Oswald', sans-serif;
-
 }

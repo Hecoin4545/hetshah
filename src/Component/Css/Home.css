@@ -4,16 +4,27 @@
     align-items: center;
     padding: 0px 80px;
     margin-bottom: 2rem;
+    background-color: #0e1924;
+}
+
+.overview-desp button {
+    margin-top: 13px;
+    width: 69px;
+    height: 30px;
+    border: 2px solid #a08c8c;
+    border-radius: 4px;
+    margin-right: 6px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    background-color: white;
 }
 
 .overview-desp h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 42px;
-    margin-bottom: 7px;
+    color: white;
 }
 
 .overview-desp p {
-    color: #779177;
+    color: #ffffffb3;
     font-family: 'Oswald', sans-serif;
     font-size: 11px;
 }
@@ -31,5 +42,5 @@
 }
 
 .myname {
-    color: purple;
+    color: #f5b82a;
 }
