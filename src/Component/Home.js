@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Css Files
 import '../Component/Css/Home.css';
@@ -20,8 +21,20 @@ function Home() {
             sit amet consectetur, adipisicing elit. Animi, tenetur? Lorem ipsum
             dolor sit, amet consectetur adipisicing elit. Laboriosam, nisi.
           </p>
-          <button>Github</button>
-          <button>Projects</button>
+          <button>
+            <a
+              href='https://github.com/Hecoin4545'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Github
+            </a>
+          </button>
+          <button>
+            <Link to='/projects' rel='noreferrer'>
+              Projects
+            </Link>
+          </button>
         </div>
         <img src={ill} alt='' />
       </div>

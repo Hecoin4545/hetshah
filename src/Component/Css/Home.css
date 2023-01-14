@@ -7,18 +7,6 @@
     background-color: #0e1924;
 }
 
-.overview-desp button {
-    margin-top: 13px;
-    width: 69px;
-    height: 30px;
-    border: 2px solid #a08c8c;
-    border-radius: 4px;
-    margin-right: 6px;
-    font-family: 'Bebas Neue', cursive;
-    cursor: pointer;
-    background-color: white;
-}
-
 .overview-desp h1 {
     color: white;
 }
@@ -39,6 +27,11 @@
     font-family: 'Bebas Neue', cursive;
     cursor: pointer;
 
+}
+
+.overview-desp button a {
+    color: white;
+    text-decoration: none;
 }
 
 .myname {

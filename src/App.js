@@ -1,4 +1,5 @@
 import '../src/App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Component/About';
 import Footer from './Component/Footer';
 import Home from './Component/Home';
@@ -10,13 +11,19 @@ import Skills from './Component/Skills';
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <MiniDetail />
-      <About />
-      <Project />
-      <Skills />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path='/'>
+            <Navbar />
+            <Home />
+            <MiniDetail />
+            <About />
+            <Project />
+            <Skills />
+            <Footer />
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 }

@@ -5,6 +5,7 @@ import React from 'react';
 
 // Css
 import '../Component/Css/Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -14,24 +15,27 @@ function Navbar() {
           <div className='logo-area'>
             <p>Analysis Your Failure To Enjoy The Victory...</p>
           </div>
-          {/* <div className='input-btn-main-nav'>
-            <span className='search-icon'>
-              <FaSearch />
-            </span>
-            <input type='text' placeholder='Type Anything About Me ' />
-          </div>
-          <div className='light-dark-area'>
-            <FaSun />
-          </div> */}
         </div>
         <div className='lower-nav-area'>
           <div className='nav-links'>
             <ul>
-              <li>Home</li>
-              <li>Blogs</li>
-              <li>Projects</li>
-              <li>Work With Me</li>
-              <li>Videos</li>
+              <>
+                <Link to='/' className='un'>
+                  Home
+                </Link>
+              </>
+              <li>
+                <Link to='/blogs'>Blogs</Link>
+              </li>
+              <li>
+                <Link to='/projects'>Projects</Link>
+              </li>
+              <li>
+                <Link to='/work'>Work With Me</Link>
+              </li>
+              <li>
+                <Link to='/'>Videos</Link>
+              </li>
             </ul>
           </div>
         </div>

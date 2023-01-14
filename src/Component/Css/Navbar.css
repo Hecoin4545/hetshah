@@ -80,5 +80,17 @@
 
 .nav-links ul li {
     font-family: 'Bebas Neue', cursive;
+}
+
+.nav-links li a {
+    text-decoration: none;
     color: white;
+
+}
+
+.un {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+
 }
