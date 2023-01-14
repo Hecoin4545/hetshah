@@ -12,7 +12,7 @@ function About() {
       <div className='quote'>
         <h1>
           "Coding Is Not About <span className='color-m'> Learning </span>, It's
-          About <span className='color-m'> Implementing </span>"
+          About <span className='color-m'> Implementing</span>"
         </h1>
       </div>
 

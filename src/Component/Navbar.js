@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Icons From React Icons
-import { FaSun, FaSearch } from 'react-icons/fa';
+// import { FaSun, FaSearch } from 'react-icons/fa';
 
 // Css
 import '../Component/Css/Navbar.css';
@@ -12,9 +12,9 @@ function Navbar() {
       <div className='navbar-main'>
         <div className='upper-nav-area'>
           <div className='logo-area'>
-            <p>Het Shah</p>
+            <p>Analysis Your Failure To Enjoy The Victory...</p>
           </div>
-          <div className='input-btn-main-nav'>
+          {/* <div className='input-btn-main-nav'>
             <span className='search-icon'>
               <FaSearch />
             </span>
@@ -22,7 +22,7 @@ function Navbar() {
           </div>
           <div className='light-dark-area'>
             <FaSun />
-          </div>
+          </div> */}
         </div>
         <div className='lower-nav-area'>
           <div className='nav-links'>

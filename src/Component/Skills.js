@@ -15,7 +15,7 @@ function Skills() {
     <>
       <div className='main-achievement-section'>
         <div className='heading'>
-          <h1>My Skills</h1>
+          <h1>"My Skills"</h1>
         </div>
         <div className='skills-sec'>
           <img src={html} alt='' />

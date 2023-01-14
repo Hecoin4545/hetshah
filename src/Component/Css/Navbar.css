@@ -21,13 +21,19 @@
     height: 13vh;
 }
 
+.logo-area {
+    width: 100%;
+}
+
 .logo-area p {
     position: relative;
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 33px;
     color: #f5b82a;
-    top: 2px;
-    left: 15px;
+    top: 6px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
 }
 
 .search-icon {
