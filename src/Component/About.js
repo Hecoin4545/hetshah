@@ -4,7 +4,7 @@ import React from 'react';
 import '../Component/Css/About.css';
 
 // Importing Images
-import myphoto from '../Component/Images/myphoto.jpeg';
+import myphoto from '../Component/Images/myphoto.png';
 
 function About() {
   return (
@@ -15,7 +15,6 @@ function About() {
           About <span className='color-m'> Implementing</span>"
         </h1>
       </div>
-
       <div className='about-me'>
         <div className='left-sec'>
           <p>

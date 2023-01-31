@@ -9,17 +9,18 @@
 }
 
 .img-desp img {
-    width: 9.7rem;
+    width: 14.7rem;
 }
 
 .img-desp p {
-    font-size: 42px;
+    font-size: 52px;
     font-family: 'Bebas Neue';
-    height: 39px;
+    height: 54px;
     color: white;
 }
 
 .img-desp h1 {
     color: #f5b82a;
     font-family: 'Oswald', sans-serif;
+    font-size: 40px;
 }

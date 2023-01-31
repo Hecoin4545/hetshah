@@ -28,7 +28,7 @@
 .logo-area p {
     position: relative;
     font-family: 'Bebas Neue', cursive;
-    font-size: 33px;
+    font-size: 45px;
     color: #f5b82a;
     top: 6px;
     letter-spacing: 2px;
@@ -85,12 +85,13 @@
 .nav-links li a {
     text-decoration: none;
     color: white;
-
+    font-size: 26px;
 }
 
 .un {
     color: white;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
 
 }
