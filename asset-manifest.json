@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hetshah/static/css/main.7dd367bc.css",
+    "main.js": "/hetshah/static/js/main.96ea6591.js",
+    "static/media/myphoto.png": "/hetshah/static/media/myphoto.f8ca9538da67d5100d4a.png",
+    "static/media/homelus.gif": "/hetshah/static/media/homelus.3199706307423b9609e2.gif",
+    "static/media/project3.png": "/hetshah/static/media/project3.3f927f18aea1b22c6160.png",
+    "static/media/project2.png": "/hetshah/static/media/project2.b49c25295678aa162c99.png",
+    "static/media/age.ico": "/hetshah/static/media/age.65e0509ad6bd426b3787.ico",
+    "static/media/blogs.ico": "/hetshah/static/media/blogs.938280bf9c46b312c65d.ico",
+    "static/media/bootstrap.png": "/hetshah/static/media/bootstrap.d650a3504bbdd7a8dba2.png",
+    "static/media/project1.png": "/hetshah/static/media/project1.a0f9f500864b7e43f480.png",
+    "static/media/website.ico": "/hetshah/static/media/website.4cd16ffa9b1289b1cf21.ico",
+    "static/media/css.png": "/hetshah/static/media/css.6edbc7fb708cfcfabd3f.png",
+    "static/media/js.png": "/hetshah/static/media/js.266bd9fb2663dcc057b4.png",
+    "static/media/html.png": "/hetshah/static/media/html.1fd1c12565cc8e50dd37.png",
+    "index.html": "/hetshah/index.html",
+    "main.7dd367bc.css.map": "/hetshah/static/css/main.7dd367bc.css.map",
+    "main.96ea6591.js.map": "/hetshah/static/js/main.96ea6591.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dd367bc.css",
+    "static/js/main.96ea6591.js"
+  ]
+}
