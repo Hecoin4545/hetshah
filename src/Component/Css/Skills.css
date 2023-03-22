@@ -6,6 +6,7 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #f5b82a;
+    font-size: 49px;
 }
 
 .skills-sec {
@@ -15,5 +16,5 @@
 }
 
 .skills-sec img {
-    width: 9rem;
+    width: 11rem;
 }

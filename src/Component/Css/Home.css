@@ -7,31 +7,33 @@
     background-color: #0e1924;
 }
 
-.overview-desp {
-    width: 52%;
+.main-home-area img {
+    width: 76rem;
 }
 
 .overview-desp h1 {
     color: white;
-    font-size: 56px;
+    font-size: 54px;
+    width: 90%;
 }
 
 .overview-desp p {
     color: #ffffffb3;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
+    width: 95%;
 }
 
 .overview-desp button {
     margin-top: 13px;
-    width: 69px;
-    height: 30px;
+    width: 75px;
+    height: 38px;
     border: 2px solid #a08c8c;
     border-radius: 4px;
     margin-right: 6px;
     font-family: 'Bebas Neue', cursive;
     cursor: pointer;
-
+    font-size: 16px;
 }
 
 .overview-desp button a {

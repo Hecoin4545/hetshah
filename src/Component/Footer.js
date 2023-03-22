@@ -11,7 +11,8 @@ function Footer() {
             <h1 className='heading-footer'>Het Shah</h1>
             <p className='para-footer'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate, velit alias praesentium est porro ipsam!
+              Cupiditate, velit alias praesentium est porro ipsam! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nobis, asperiores.
             </p>
           </div>
           <div className='socials-ft'>

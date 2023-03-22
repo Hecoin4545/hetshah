@@ -9,41 +9,53 @@ import myphoto from '../Component/Images/myphoto.png';
 function About() {
   return (
     <>
-      <div className='quote'>
+      <div className='quote' data-aos='fade-out'>
         <h1>
           "Coding Is Not About <span className='color-m'> Learning </span>, It's
           About <span className='color-m'> Implementing</span>"
         </h1>
       </div>
       <div className='about-me'>
-        <div className='left-sec'>
+        <div className='left-sec' data-aos='fade-right'>
           <p>
             {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            placeat id beatae ab modi,{' '}
+            Hello, my name is Het and I am a Full Stack Developer with three
+            years of experience in the field.
             <span className='color-pu'>
               {' '}
-              cupiditate quidem incidunt saepe ullam obcaecati nemo earum quasi.{' '}
+              During this time, I have worked on over 20 websites and have
+              acquired a wealth of knowledge and experience.{' '}
             </span>{' '}
-            Laboriosam provident itaque repudiandae mollitia quidem? Nobis.
+            My journey began with HTML, followed by a brief period of mastering
+            CSS, and finally, I fell in love with JavaScript. Since then, I have
+            honed my skills in React and am currently focusing on backend
+            development using Node.js and MongoDB.
             <br />
             <br />
             <span className='light-br'>
               {' '}
-              Vitae fuga explicabo voluptate eius expedita sequi cum adipisci
-              velit. Animi id officiis unde porro corporis numquam ipsam hic
-              illo veritatis error? Officia fuga nesciunt ipsa ut tenetur odio
-              consequuntur!
+              In the early stages of my career, I made a lot of mistakes, but I
+              have learned valuable lessons from each of them. While developing
+              my skills, I also had the opportunity to build a website that had
+              over 100 users, which was a very satisfying experience. My passion
+              for web development and my determination to continuously improve
+              my skills motivates me to stay on top of the latest trends and
+              technologies in the field. I am confident that my experience,
+              skills, and dedication make me a valuable asset to any team.
             </span>
             <br />
             <br />
-            Quis dignissimos qui aliquam ipsum corporis autem illum voluptatum
-            delectus nesciunt tempore cumque, doloribus sunt harum, eius nemo
-            excepturi{' '}
+            Over the past year, I have developed an avid interest in two
+            distinct areas - geopolitics and table tennis. My fascination with
+            geopolitics was sparked by a YouTube channel, "World Affairs," which
+            provided me with a deep understanding of global political issues.
+            Meanwhile, table tennis has become a source of relaxation and
+            recreation for me, often enjoyed through matches played with my
+            father.
             <span className='color-pu'>
               {' '}
-              similique facere! Nulla ab labore perspiciatis numquam sunt aut
-              vitae fuga.
+              I am excited to continue exploring new areas of interest and
+              expanding my horizons as I move forward in my career.
             </span>
           </p>
 
@@ -52,7 +64,7 @@ function About() {
             <button>Blogs</button>
           </div>
         </div>
-        <div className='right-sec'>
+        <div className='right-sec' data-aos='fade-left'>
           <img src={myphoto} alt='' />
         </div>
       </div>

@@ -35,7 +35,7 @@ function App() {
       ) : (
         <Router>
           <Switch>
-            <Route path='/'>
+            <Route exact path='/'>
               <Navbar />
               <Home />
               <MiniDetail />

@@ -13,7 +13,7 @@ import bootstrap from '../Component/Images/bootstrap.png';
 function Skills() {
   return (
     <>
-      <div className='main-achievement-section'>
+      <div className='main-achievement-section' data-aos='fade-out'>
         <div className='heading'>
           <h1>"My Skills"</h1>
         </div>

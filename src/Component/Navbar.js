@@ -1,8 +1,5 @@
 import React from 'react';
 
-// Icons From React Icons
-// import { FaSun, FaSearch } from 'react-icons/fa';
-
 // Css
 import '../Component/Css/Navbar.css';
 import { Link } from 'react-router-dom';

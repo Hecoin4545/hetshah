@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Css Files
 import '../Component/Css/Home.css';
@@ -10,16 +9,16 @@ import ill from '../Component/Images/homelus.gif';
 function Home() {
   return (
     <>
-      <div className='main-home-area'>
+      <div className='main-home-area' data-aos='fade-out'>
         <div className='overview-desp'>
           <h1>
             Hello Everyone Myself , <span className='myname'> Het Shah </span>
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            cupiditate velit suscipit perferendis neque vero? Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Animi, tenetur? Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Laboriosam, nisi.
+            I am a juvenile programmer and website architect hailing from Surat,
+            India, who exhibits a keen proclivity for the acquisition of data
+            science knowledge. My pastimes encompass the domains of computer
+            programming, cricket, and table tennis.
           </p>
           <button>
             <a
@@ -31,9 +30,13 @@ function Home() {
             </a>
           </button>
           <button>
-            <Link to='/projects' rel='noreferrer'>
-              Projects
-            </Link>
+            <a
+              href='https://instagram.com/shahhet4'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Instagram
+            </a>
           </button>
         </div>
         <img src={ill} alt='' />
