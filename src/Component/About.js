@@ -70,7 +70,7 @@ function About() {
           </div>
         </div>
         <div className='right-sec' data-aos='fade-left'>
-          <img src={myphoto} alt='' />
+          <img src={myphoto} alt='photo' />
         </div>
       </div>
     </>
