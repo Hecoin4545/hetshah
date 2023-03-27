@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Importing Css Files
 import '../Component/Css/About.css';
@@ -60,8 +61,12 @@ function About() {
           </p>
 
           <div className='box-button'>
-            <button>Contact Me</button>
-            <button>Blogs</button>
+            <Link to='work' className='link-ab'>
+              Contact Me
+            </Link>
+            <Link to='blogs' className='link-ab'>
+              Blogs
+            </Link>
           </div>
         </div>
         <div className='right-sec' data-aos='fade-left'>

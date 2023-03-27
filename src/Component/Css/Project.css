@@ -82,12 +82,16 @@
 }
 
 .btn {
-    border: 2px solid black;
-    width: 82px;
+    border: 2px solid #f2f2f2;
+    width: 86px;
     height: 36px;
     margin: 10px;
     border-radius: 4px;
-    background-color: #ffffff;
-    color: #2c0632;
+    background-color: transparent;
+    color: white;
     font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

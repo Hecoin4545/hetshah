@@ -7,6 +7,9 @@ import './Css/Project.css';
 import project1 from '../Component/Images/project1.png';
 import project2 from '../Component/Images/project2.png';
 import project3 from '../Component/Images/project3.png';
+import project4 from '../Component/Images/project4.png';
+import project5 from '../Component/Images/project5.png';
+import project6 from '../Component/Images/project6.png';
 
 function Project() {
   return (
@@ -34,8 +37,22 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/bootstrap-website/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/bootstrap-website'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
           <div className='pro-2 projects' data-aos='fade-out'>
@@ -53,8 +70,22 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/manoj-mukund-narvane/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/manoj-mukund-narvane'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
           <div className='pro-3 projects' data-aos='fade-left'>
@@ -72,12 +103,26 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/hecoin-restaurant/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/hecoin-restaurant'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
           <div className='pro-4 projects' data-aos='fade-right'>
-            <img src={project3} alt='' />
+            <img src={project4} alt='' />
             <h1>Previous Portfolio</h1>
             <p>
               At the outset of my web development career, I constructed this
@@ -91,18 +136,31 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/ShahHet.github.io/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/ShahHet.github.io'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
           <div className='pro-5 projects' data-aos='fade-out'>
-            <img src={project3} alt='' />
-            <h1>Bootstrap Website</h1>
+            <img src={project5} alt='' />
+            <h1>Cookie Website</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-              cumque ut illo inventore unde quasi id eveniet! Rerum soluta nisi
-              amet ea error perspiciatis doloribus similique natus deserunt?
-              Quasi, quidem!
+              Cookie website is a platform for online marketers to comply with
+              cookie consent laws. It provides customizable cookie banners,
+              scanning, and consent management solutions for website owners.
             </p>
             <div className='work-program'>
               <p>HTML </p>
@@ -110,18 +168,31 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/Cook-Key.github.io/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/Cook-Key.github.io'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
           <div className='pro-6 projects' data-aos='fade-left'>
-            <img src={project3} alt='' />
-            <h1>Bootstrap Website</h1>
+            <img src={project6} alt='' />
+            <h1>SpeedRace Website</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-              cumque ut illo inventore unde quasi id eveniet! Rerum soluta nisi
-              amet ea error perspiciatis doloribus similique natus deserunt?
-              Quasi, quidem!
+              Typing race is an online competition where participants race
+              against each other to type a given text accurately and quickly.
+              The winner is determined by the lowest time and error count...
             </p>
             <div className='work-program'>
               <p>HTML </p>
@@ -129,8 +200,22 @@ function Project() {
               <p>JAVASCRIPT </p>
             </div>
             <div className='button'>
-              <button className='btn'>VISIT</button>
-              <button className='btn'>CODE</button>
+              <a
+                href='https://hecoin4545.github.io/SpeedRacer.github.io/'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                VISIT
+              </a>
+              <a
+                href='https://github.com/Hecoin4545/SpeedRacer.github.io'
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
+              >
+                CODE
+              </a>
             </div>
           </div>
         </div>

@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: self-end;
+    cursor: pointer;
 }
 
 .socials-ft svg {
@@ -64,4 +65,36 @@ ul li {
 .para-footer {
     color: white;
     font-size: 18px;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .main-area-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .left-sec-ft {
+        width: 100%;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right-sec-ft {
+        width: 100%;
+    }
+
+    ul h1 {
+        font-size: 26px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
 }

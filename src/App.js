@@ -7,7 +7,7 @@ import Home from './Component/Home';
 import MiniDetail from './Component/MiniDetail';
 import Navbar from './Component/Navbar';
 import Project from './Component/Project';
-import Skills from './Component/Skills';
+// import Skills from './Component/Skills';
 import FadeLoader from 'react-spinners/FadeLoader';
 
 function App() {
@@ -41,7 +41,6 @@ function App() {
               <MiniDetail />
               <About />
               <Project />
-              <Skills />
               <Footer />
             </Route>
           </Switch>

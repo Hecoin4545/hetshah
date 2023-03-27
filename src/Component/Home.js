@@ -31,7 +31,7 @@ function Home() {
           </button>
           <button>
             <a
-              href='https://instagram.com/shahhet4'
+              href='https://www.instagram.com/hecoin45/'
               rel='noreferrer'
               target='_blank'
             >

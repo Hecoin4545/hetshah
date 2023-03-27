@@ -44,3 +44,51 @@
 .myname {
     color: #f5b82a;
 }
+
+
+@media only screen and (max-width: 1100px) {
+    .main-home-area {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-home-area img {
+        width: 38rem;
+        position: relative;
+    }
+
+    .overview-desp {
+        width: 95%;
+        position: relative;
+        left: 20px;
+    }
+
+    .overview-desp h1 {
+        font-size: 54px;
+        width: 100%;
+    }
+
+    .overview-desp p {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .main-home-area img {
+        width: 20rem;
+    }
+
+    .main-home-area {
+        padding: 0px 20px;
+    }
+
+    .overview-desp p {
+        font-size: 13px;
+    }
+
+    .overview-desp h1 {
+        font-size: 33px;
+    }
+}
